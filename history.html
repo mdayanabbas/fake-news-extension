@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>History</title>
+    <title>Analysis History</title>
 </head>
 <body>
     <h1>Analysis History</h1>
-    <ul id="historyList"></ul>
-    <script src="history.js
+    <div id="historyContainer">
+        <table>
+            <thead>
+                <tr>
+                    <th>Text</th>
+                    <th>Result</th>
+                    <th>Confidence</th>
+                </tr>
+            </thead>
+            <tbody id="historyList">
+                <!-- History entries will be populated here -->
+            </tbody>
+        </table>
+    </div>
+    <button id="backBtn">Back</button>
+    <script src="history.js"></script>
+</body>
+</html>
