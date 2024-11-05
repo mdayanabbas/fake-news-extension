@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fake News Detector</title>
+</head>
+<body>
+    <h1>Fake News Detector</h1>
+    <div id="auth">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button id="loginBtn">Login</button>
+        <button id="registerBtn">Register</button>
+    </div>
+    <div id="analysis" style="display:none;">
+        <button id="sendText">Analyze Selected Text</button>
+        <div id="response" class="response"></div>
+        <button id="historyBtn">View History</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
